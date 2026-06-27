@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Arish Services",
+  "description": "Public Financial Management, IT Solutions, Policy Consulting, and Startup Support in Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

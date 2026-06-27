@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Inter", sans-serif;
+  
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-800: #115e59;
+  --color-brand-900: #134e4a;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+.animate-scroll-infinite {
+  animation: scroll 25s linear infinite;
+}
+
+.animate-scroll-infinite:hover {
+  animation-play-state: paused;
+}
+
+/* S-Curve Divider */
+.s-curve {
+  position: relative;
+  height: 80px;
+  width: 100%;
+  background: transparent;
+}
+
+/* Custom scrollbar and smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-dotted-pattern {
+  background-image: radial-gradient(#cbd5e1 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+::selection {
+  background-color: var(--color-brand-100);
+  color: var(--color-brand-900);
+}
