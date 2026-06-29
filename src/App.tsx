@@ -11,6 +11,7 @@ import {
   Sparkles,
   Award
 } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 // Import pages
 import Home from "./pages/Home";
@@ -227,6 +228,7 @@ export default function App() {
         </div>
       </footer>
 
+      <Analytics />
     </div>
   );
 }
