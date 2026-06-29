@@ -99,7 +99,7 @@ export default function Contact() {
                     Amrit Shrestha
                   </p>
                   <p className="text-xs text-slate-600">
-                    Mobile Direct: <a href="tel:+9779851187306" className="font-bold hover:text-[#ff439b] transition-colors text-rose-900">+977 9851187306</a>
+                    Mobile Direct: <a href="tel:+9779851187306" className="font-bold hover:text-[#ff439b] transition-colors text-rose-900">+977 9841187306</a>
                   </p>
                 </div>
               </div>
